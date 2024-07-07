@@ -3073,3 +3073,5 @@ function uv.write(stream, data, callback) end
 ---@return uv.error.message|nil err
 ---@return uv.error.name|nil err_name
 function uv.write2(stream, data, send_handle, callback) end
+
+return uv

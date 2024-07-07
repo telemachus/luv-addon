@@ -1,8 +1,4 @@
 {
-    "files" : [],
-    "words" : [
-        "require.*'luv'.*",
-        "require.*\"luv\".*"
-    ],
-    "settings" : {}
+    "$schema": "https://raw.githubusercontent.com/LuaLS/LLS-Addons/main/schemas/addon_config.schema.json",
+    "words": ["require[%s%(\"']+luv[%)\"']"]
 }
